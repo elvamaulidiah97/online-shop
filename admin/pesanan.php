@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>User | Admin - NextProject</title>
+	<title>Pesanan | Admin - NextProject</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -67,33 +67,33 @@
 										<thead>
 											<tr>
 												<th>#</th>
-												<th>First Name</th>
-												<th>Alamat</th>
 												<th>Username</th>
-												<th>Action</th>
+												<th>Nama Barang</th>
+												<th>Jumlah</th>
+												<th>tanggal Pembelian</th>
 											</tr>
 										</thead>
 										<tbody>
 											<tr>
 												<td>1</td>
-												<td>Steve</td>
-												<td>Surabaya</td>
 												<td>steve21</td>
-												<td><a href="" class=" btn btn-info">Detail</a></td>
+												<td>Cardinal</td>
+												<td>2</td>
+												<td>21 Januari 2017 18:00</td>
 											</tr>
 											<tr>
 												<td>2</td>
-												<td>Simon</td>
-												<td>Malang</td>
 												<td>Ssimon</td>
-												<td><a href="" class=" btn btn-info">Detail</a></td>
+												<td>Cardinal</td>
+												<td>1</td>
+												<td>1 Februari 2017 16:00</td>
 											</tr>
 											<tr>
 												<td>3</td>
-												<td>Jane</td>
-												<td>Jember</td>
 												<td>j4ne</td>
-												<td><a href="" class=" btn btn-info">Detail</a></td>
+												<td>Levi's</td>
+												<td>1</td>
+												<td>1 Juni 2017 14:53</td>
 											</tr>
 										</tbody>
 									</table>
