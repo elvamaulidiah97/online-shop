@@ -36,7 +36,7 @@
 
 				<li><a href="login.php">Masuk</a></li>
 				<li><a href="register.php">Daftar</a></li>
-				<li><a href="men.php">Recommended </a></li>
+				<!-- <li><a href="recommended.php">Recommended </a></li> -->
 				<li><a href="#">Pembayaran</a></li>
 			</ul>
 		</div>

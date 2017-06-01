@@ -52,8 +52,8 @@
 									</div>
 								</ul>
 						</li>
-						<li><a href="about.html" class="hyper"><span>Tentang</span></a></li>
-						<li><a href="contact.html" class="hyper"><span>Hubungi Kami</span></a></li>
+						<li><a href="about.php" class="hyper"><span>Tentang</span></a></li>
+						<li><a href="contact.php" class="hyper"><span>Hubungi Kami</span></a></li>
 					</ul>
 				</div>
 			</nav>
