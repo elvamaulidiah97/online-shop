@@ -26,34 +26,34 @@
 				</div>
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav ">
-						<li class=" active"><a href="index.html" class="hyper "><span>Home</span></a></li>
+						<li class=" active"><a href="index.html" class="hyper "><span>Beranda</span></a></li>
 						<li class="dropdown ">
-							<a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown" ><span>Clothing<b class="caret"></b></span></a>
+							<a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown" ><span>Fashion<b class="caret"></b></span></a>
 								<ul class="dropdown-menu multi">
 									<div class="row">
 										<div class="col-sm-4">
 											<ul class="multi-column-dropdown">
-												<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Men's Clothing</a></li>
-												<li><a href="#"> <i class="fa fa-angle-right" aria-hidden="true"></i>Kid's Wear</a></li>
-												<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Party Wear</a></li>
+												<li><a href="men.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Baju Pria</a></li>
+												<li><a href="men.php"> <i class="fa fa-angle-right" aria-hidden="true"></i>Baju anak-anak</a></li>
+												<li><a href="men.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Baju Pesta</a></li>
 
 											</ul>
 
 										</div>
 										<div class="col-sm-4">
 											<ul class="multi-column-dropdown">
-												<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Casuals</a></li>
-												<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Night Wear</a></li>
-												<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Formals</a></li>
-												<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Inner Wear</a></li>
+												<li><a href="men.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Casuals</a></li>
+												<li><a href="men.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Night Wear</a></li>
+												<li><a href="men.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Formals</a></li>
+												<li><a href="men.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Inner Wear</a></li>
 											</ul>
 										</div>
 										<!-- <div class="clearfix"></div> -->
 									</div>
 								</ul>
 						</li>
-						<li><a href="about.html" class="hyper"><span>About</span></a></li>
-						<li><a href="contact.html" class="hyper"><span>Contact Us</span></a></li>
+						<li><a href="about.html" class="hyper"><span>Tentang</span></a></li>
+						<li><a href="contact.html" class="hyper"><span>Hubungi Kami</span></a></li>
 					</ul>
 				</div>
 			</nav>
@@ -73,7 +73,7 @@
 				});
 				</script>
 		<div class="col-md-4 search-agileinfo">
-			<form action="#" method="get">
+			<form action="men.php" method="get">
 				<input type="search" name="Search" placeholder="Search for a Product..." required="">
 				<button type="submit" class="btn btn-default search" aria-label="Left Align">
 					<i class="fa fa-search" aria-hidden="true"> </i>

@@ -39,10 +39,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="w3ls_dresses_grid_left_grid_sub">
 						<div class="ecommerce_dres-type">
 							<ul>
-								<li><a href="men.html">Casuals</a></li>
-								<li><a href="men.html">Slacks</a></li>
-								<li><a href="men.html">Jeans</a></li>
-								<li><a href="men.html">Shirts</a></li>
+								<li><a href="men.php">Casuals</a></li>
+								<li><a href="men.php">Slacks</a></li>
+								<li><a href="men.php">Jeans</a></li>
+								<li><a href="men.php">Shirts</a></li>
 							</ul>
 						</div>
 					</div>
@@ -52,12 +52,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="w3ls_dresses_grid_left_grid_sub">
 					<div class="ecommerce_color">
 						<ul>
-							<li><a href="#"><i></i> Red(5)</a></li>
-							<li><a href="#"><i></i> Brown(2)</a></li>
-							<li><a href="#"><i></i> Yellow(3)</a></li>
-							<li><a href="#"><i></i> Violet(6)</a></li>
-							<li><a href="#"><i></i> Orange(2)</a></li>
-							<li><a href="#"><i></i> Blue(1)</a></li>
+							<li><a href="men.php"><i></i> Red(5)</a></li>
+							<li><a href="men.php"><i></i> Brown(2)</a></li>
+							<li><a href="men.php"><i></i> Yellow(3)</a></li>
+							<li><a href="men.php"><i></i> Violet(6)</a></li>
+							<li><a href="men.php"><i></i> Orange(2)</a></li>
+							<li><a href="men.php"><i></i> Blue(1)</a></li>
 						</ul>
 					</div>
 				</div>
@@ -87,7 +87,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="col-md-8 col-sm-8 women-dresses">
 			<div class="women-set1">
 				<div class="col-md-4 women-grids wp1 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="single.html"><div class="product-img">
+					<a href="single.php"><div class="product-img">
 						<img src="images/mp1.jpg" alt="" />
 						<div class="p-mask">
 							<form action="#" method="post">
@@ -108,7 +108,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h5>$50.00</h5>
 				</div>
 				<div class="col-md-4 women-grids wp2 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="single.html"><div class="product-img">
+					<a href="single.php"><div class="product-img">
 						<img src="images/mp2.jpg" alt="" />
 						<div class="p-mask">
 							<form action="#" method="post">
@@ -129,7 +129,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h5>$70.00</h5>
 				</div>
 				<div class="col-md-4 women-grids wp3 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="single.html"><div class="product-img">
+					<a href="single.php"><div class="product-img">
 						<img src="images/mp3.jpg" alt="" />
 						<div class="p-mask">
 							<form action="#" method="post">
@@ -153,7 +153,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="women-set2">
 				<div class="col-md-4 women-grids wp4 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="single.html"><div class="product-img">
+					<a href="single.php"><div class="product-img">
 						<img src="images/mp4.jpg" alt="" />
 						<div class="p-mask">
 							<form action="#" method="post">
@@ -174,7 +174,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h5>$100.00</h5>
 				</div>
 				<div class="col-md-4 women-grids wp5 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="single.html"><div class="product-img">
+					<a href="single.php"><div class="product-img">
 						<img src="images/mp5.jpg" alt="" />
 						<div class="p-mask">
 							<form action="#" method="post">
@@ -195,7 +195,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h5>$120.00</h5>
 				</div>
 				<div class="col-md-4 women-grids wp6 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="single.html"><div class="product-img">
+					<a href="single.php"><div class="product-img">
 						<img src="images/mp6.jpg" alt="" />
 						<div class="p-mask">
 							<form action="#" method="post">
@@ -219,7 +219,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="women-set3">
 				<div class="col-md-4 women-grids mp7 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="single.html"><div class="product-img">
+					<a href="single.php"><div class="product-img">
 						<img src="images/mp7.jpg" alt="" />
 						<div class="p-mask">
 							<form action="#" method="post">
@@ -240,7 +240,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h5>$110.00</h5>
 				</div>
 				<div class="col-md-4 women-grids wp8 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="single.html"><div class="product-img">
+					<a href="single.php"><div class="product-img">
 						<img src="images/mp8.jpg" alt="" />
 						<div class="p-mask">
 							<form action="#" method="post">
@@ -261,7 +261,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h5>$180.00</h5>
 				</div>
 				<div class="col-md-4 women-grids wp9 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="single.html"><div class="product-img">
+					<a href="single.php"><div class="product-img">
 						<img src="images/mp9.jpg" alt="" />
 						<div class="p-mask">
 							<form action="#" method="post">
