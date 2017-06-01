@@ -34,9 +34,9 @@
 			<h4>My Account</h4>
 			<ul>
 
-				<li><a href="#">Masuk</a></li>
-				<li><a href="#">Daftar</a></li>
-				<li><a href="#">Recommended </a></li>
+				<li><a href="login.php">Masuk</a></li>
+				<li><a href="register.php">Daftar</a></li>
+				<li><a href="men.php">Recommended </a></li>
 				<li><a href="#">Pembayaran</a></li>
 			</ul>
 		</div>
