@@ -31,7 +31,7 @@
 			<div class="sidebar-scroll">
 				<nav>
 					<ul class="nav">
-						<li><a href="index.php" class="active"><i class="lnr lnr-home"></i> <span>Dashboard</span></a></li>
+						<li><a href="index.php" class=""><i class="lnr lnr-home"></i> <span>Dashboard</span></a></li>
 						<li>
 							<a href="#subPages" data-toggle="collapse" class="collapsed"><i class="lnr lnr-gift"></i> <span>Produk</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
 							<div id="subPages" class="collapse ">
@@ -43,7 +43,7 @@
 						</li>
 						<li><a href="pesanan.php" class=""><i class="lnr lnr-cart"></i> <span>Pesanan</span></a></li>
 						<li><a href="users.php" class=""><i class="lnr lnr-user"></i> <span>Users</span></a></li>
-						<li><a href="laporan.php" class=""><i class="lnr lnr-chart-bars"></i><span>Laporan</span></a></li>
+						<li><a href="laporan.php" class="active"><i class="lnr lnr-chart-bars"></i><span>Laporan</span></a></li>
 					</ul>
 				</nav>
 			</div>
@@ -54,8 +54,30 @@
 			<!-- MAIN CONTENT -->
 			<div class="main-content">
 				<div class="container-fluid">
-					<h3 class="page-title">Dashboard</h3>
+					<h3 class="page-title">Laporan</h3>
 					<!-- OVERVIEW -->
+					<div class="row">
+						<div class="col-md-6">
+							<div class="panel">
+								<div class="panel-heading">
+									<h3 class="panel-title">Pembeli</h3>
+								</div>
+								<div class="panel-body">
+									<div id="pembeli" class="ct-chart"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="panel">
+								<div class="panel-heading">
+									<h3 class="panel-title">Barang Terjual</h3>
+								</div>
+								<div class="panel-body">
+									<div id="barang" class="ct-chart"></div>
+								</div>
+							</div>
+						</div>
+					</div>
 					<div class="panel panel-headline">
 						<div class="panel-heading">
 							<h3 class="panel-title">Laporan Bulanan</h3>
@@ -132,6 +154,48 @@
 	<script src="assets/vendor/chartist/js/chartist.min.js"></script>
 	<script>
 	$(function() {
+		var options;
+
+		var data = {
+			labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+			series: [
+				[200, 250, 178, 201, 203],
+			]
+		};
+
+		// line chart
+		options = {
+			height: "300px",
+			showPoint: true,
+			axisX: {
+				showGrid: false
+			},
+			lineSmooth: false,
+		};
+
+		new Chartist.Line('#pembeli', data, options);
+
+		var options;
+
+		var data = {
+			labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+			series: [
+				[200, 380, 350, 320, 388],
+			]
+		};
+
+		// line chart
+		options = {
+			height: "300px",
+			showPoint: true,
+			axisX: {
+				showGrid: false
+			},
+			lineSmooth: false,
+		};
+
+		new Chartist.Line('#barang', data, options);
+
 		var data, options;
 
 		// headline charts
@@ -154,7 +218,7 @@
 			},
 			lineSmooth: false,
 		};
-		
+
 		new Chartist.Line('#headline-chart', data, options);
 
 
