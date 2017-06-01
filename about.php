@@ -33,11 +33,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <div class="about">
 	<div class="container"> 
-		<h3>About Us</h3>
+		<h3>Tentang Kami</h3>
 		<div class="about-info">
 			<div class="col-md-8 about-grids">
-				<h4>Our latest collection</h4>
-				<p>Dignissimos at vero eos et accusamus et iusto odio ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecat officia. </p>		
+				<h4>Koleksi terbaru kami</h4>
+				<p>Kami menjual produk produk kekinian yang bikin kamu jadi kece abis. </p>		
 					<div class="about-w3ls-row">
 						<script type="text/javascript">
 								 $(window).load(function() {
@@ -85,13 +85,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 			</div>
 			<div class="col-md-4 about-grids">
-					<h4>Our Advantages</h4>
+					<h4>Kelebihan kami</h4>
 					<div class="pince">
 						<div class="pince-left">
 							<h5>01</h5>
 						</div>
 						<div class="pince-right">
-							<p>Vero vulputate enim non justo posuere phasellus eget  mauris.</p>
+							<p>Murah dan terpercaya.</p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -100,7 +100,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<h5>02</h5>
 						</div>
 						<div class="pince-right">
-							<p>Vero vulputate enim non justo posuere phasellus eget  mauris.</p>
+							<p>Pesan langsung antar.</p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -109,7 +109,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<h5>03</h5>
 						</div>
 						<div class="pince-right">
-							<p>Vero vulputate enim non justo posuere phasellus eget  mauris.</p>
+							<p>Barang original.</p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -118,7 +118,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<h5>04</h5>
 						</div>
 						<div class="pince-right">
-							<p>Vero vulputate enim non justo posuere phasellus eget  mauris.</p>
+							<p>Barang tidak sesuai spesifikasi? Kami ganti 100%.</p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -138,11 +138,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 <!-- //about-bottom -->
 <!--team-->
+<style type="text/css">
+	h4, h5 {
+		text-align: center!important;
+	}
+</style>
 <div class="team" id="team">
 	<div class="container">
 		<h3> Our Team</h3>
 		<div class="team-grids">
-			<div class="col-md-3 team-grid">
+			<div class="clearfix"></div>
+			<div class="col-md-4 team-grid">
 									<div class="team-img">
 										<img src="images/t1.jpg" class="img-responsive" alt=" " />
 										<figcaption class="overlay">
@@ -154,12 +160,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											</div>
 										</figcaption>
 									</div>
-									<h4>John Filmr Doe</h4>
+									<h4>Kurnia</h4>
 									<h5>Managing Director</h5>
 			</div>
-			<div class="col-md-3 team-grid">
+			<div class="col-md-4 team-grid">
 				<div class="team-img">
-					<img src="images/t3.jpg" class="img-responsive" alt=" " />
+					<img src="images/offer2.jpg" class="img-responsive" alt=" " />
 					<figcaption class="overlay">
 						<div class="social-icon">
 							<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -169,10 +175,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 					</figcaption>
 				</div>
-				<h4>Jaye Smith</h4>
+				<h4>Hendra</h4>
 				<h5>Lead Developer</h5>
 			</div>
-			<div class="col-md-3 team-grid">
+			<div class="col-md-4 team-grid">
 				<div class="team-img">
 					<img src="images/t2.jpg" class="img-responsive" alt=" " />
 					<figcaption class="overlay">
@@ -184,24 +190,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 					</figcaption>
 				</div>
-				<h4>Mike Arney</h4>
+				<h4>Elva</h4>
 				<h5>Fashion Designer</h5>
 			</div>
-			<div class="col-md-3 team-grid">
-				<div class="team-img">
-					<img src="images/t4.jpg" class="img-responsive" alt=" " />
-					<figcaption class="overlay">
-						<div class="social-icon">
-							<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-							<a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-							<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-							<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-						</div>
-					</figcaption>
-				</div>
-				<h4>Michele Lampa</h4>
-				<h5>fashion Designer</h5>
-			</div>
+			
 			<div class="clearfix"></div>
 		</div>
 	</div>

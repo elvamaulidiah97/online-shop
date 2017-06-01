@@ -13,10 +13,10 @@
 		</ul>
 		</div>
 		<div class="col-md-3 footer-grids fgd2">
-			<h4>Information</h4>
+			<h4>Informasi</h4>
 			<ul>
-				<li><a href="#">Contact Us</a></li>
-				<li><a href="#">Web Icons</a></li>
+				<li><a href="#">Hubungi Kami</a></li>
+				<li><a href="#">Web Ikon</a></li>
 				<li><a href="#">Typography</a></li>
 				<li><a href="#">FAQ's</a></li>
 			</ul>
@@ -24,20 +24,20 @@
 		<div class="col-md-3 footer-grids fgd3">
 			<h4>Shop</h4>
 			<ul>
-				<li><a href="#">Shirts</a></li>
-				<li><a href="#">Watchs</a></li>
-				<li><a href="#">Shoes</a></li>
-				<li><a href="#">Bags</a></li>
+				<li><a href="#">Baju</a></li>
+				<li><a href="#">Jam tangan</a></li>
+				<li><a href="#">Sepatu</a></li>
+				<li><a href="#">Tas</a></li>
 			</ul>
 		</div>
 		<div class="col-md-3 footer-grids fgd4">
 			<h4>My Account</h4>
 			<ul>
 
-				<li><a href="#">Login</a></li>
-				<li><a href="#">Register</a></li>
-				<li><a href="#">Recommended </a></li>
-				<li><a href="#">Payments</a></li>
+				<li><a href="login.php">Masuk</a></li>
+				<li><a href="register.php">Daftar</a></li>
+				<!-- <li><a href="recommended.php">Recommended </a></li> -->
+				<li><a href="#">Pembayaran</a></li>
 			</ul>
 		</div>
 		<div class="clearfix"></div>
