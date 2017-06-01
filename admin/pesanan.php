@@ -41,8 +41,8 @@
 								</ul>
 							</div>
 						</li>
-						<li><a href="pesanan.php" class=""><i class="lnr lnr-cart"></i> <span>Pesanan</span></a></li>
-						<li><a href="users.php" class="active"><i class="lnr lnr-user"></i> <span>Users</span></a></li>
+						<li><a href="pesanan.php" class="active"><i class="lnr lnr-cart"></i> <span>Pesanan</span></a></li>
+						<li><a href="users.php" class=""><i class="lnr lnr-user"></i> <span>Users</span></a></li>
 						<li><a href="laporan.php" class=""><i class="lnr lnr-chart-bars"></i><span>Laporan</span></a></li>
 					</ul>
 				</nav>
@@ -54,13 +54,13 @@
 			<!-- MAIN CONTENT -->
 			<div class="main-content">
 				<div class="container-fluid">
-					<h3 class="page-title">Users</h3>
+					<h3 class="page-title">Pesanan</h3>
 					<div class="row">
 						<div class="col-md-12">
 							<!-- TABLE HOVER -->
 							<div class="panel">
 								<div class="panel-heading">
-									<h3 class="panel-title">Table User</h3>
+									<h3 class="panel-title">Table Pesanan</h3>
 								</div>
 								<div class="panel-body">
 									<table class="table table-hover">

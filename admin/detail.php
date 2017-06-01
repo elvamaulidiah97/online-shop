@@ -33,7 +33,7 @@
 					<ul class="nav">
 						<li><a href="index.php" class=""><i class="lnr lnr-home"></i> <span>Dashboard</span></a></li>
 						<li>
-							<a href="#subPages" data-toggle="collapse" class="collapsed"><i class="lnr lnr-gift"></i> <span>Produk</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
+							<a href="#subPages" data-toggle="collapse" class="collapsed active"><i class="lnr lnr-gift"></i> <span>Produk</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
 							<div id="subPages" class="collapse ">
 								<ul class="nav">
 									<li><a href="tambah.php" class="">Tambah</a></li>
@@ -42,7 +42,7 @@
 							</div>
 						</li>
 						<li><a href="pesanan.php" class=""><i class="lnr lnr-cart"></i> <span>Pesanan</span></a></li>
-						<li><a href="users.php" class="active"><i class="lnr lnr-user"></i> <span>Users</span></a></li>
+						<li><a href="users.php" class=""><i class="lnr lnr-user"></i> <span>Users</span></a></li>
 						<li><a href="laporan.php" class=""><i class="lnr lnr-chart-bars"></i><span>Laporan</span></a></li>
 					</ul>
 				</nav>
@@ -54,52 +54,116 @@
 			<!-- MAIN CONTENT -->
 			<div class="main-content">
 				<div class="container-fluid">
-					<h3 class="page-title">Users</h3>
+					<h3 class="page-title">Barang</h3>
 					<div class="row">
 						<div class="col-md-12">
 							<!-- TABLE HOVER -->
 							<div class="panel">
 								<div class="panel-heading">
-									<h3 class="panel-title">Table User</h3>
+									<h3 class="panel-title">Table Barang</h3>
 								</div>
 								<div class="panel-body">
 									<table class="table table-hover">
 										<thead>
 											<tr>
 												<th>#</th>
-												<th>First Name</th>
-												<th>Alamat</th>
-												<th>Username</th>
-												<th>Action</th>
+												<th>Nama</th>
+												<th>Harga</th>
+												<th>Deskripsi</th>
+												<th>Size</th>
+												<th>Tipe</th>
+												<th>Stok</th>
+												<th>Gambar</th>
 											</tr>
 										</thead>
 										<tbody>
 											<tr>
 												<td>1</td>
-												<td>Steve</td>
-												<td>Surabaya</td>
-												<td>steve21</td>
-												<td><a href="" class=" btn btn-info">Detail</a></td>
+												<td>Details</td>
+												<td>225000</td>
+												<td>Kemeja Putih</td>
+												<td>L</td>
+												<td>Party</td>
+												<td>21</td>
+												<td><buttom class="btn btn-primary" data-toggle="modal" data-target="#myModal">Lihat</buttom></td>
 											</tr>
 											<tr>
 												<td>2</td>
-												<td>Simon</td>
-												<td>Malang</td>
-												<td>Ssimon</td>
-												<td><a href="" class=" btn btn-info">Detail</a></td>
+												<td>Park Avenue</td>
+												<td>200000</td>
+												<td>Kemeja Biru gelap</td>
+												<td>L</td>
+												<td>Men</td>
+												<td>25</td>
+												<td><buttom class="btn btn-primary">Lihat</buttom></td>
 											</tr>
 											<tr>
 												<td>3</td>
-												<td>Jane</td>
-												<td>Jember</td>
-												<td>j4ne</td>
-												<td><a href="" class=" btn btn-info">Detail</a></td>
+												<td>Details</td>
+												<td>150000</td>
+												<td>Kemeja Coklat</td>
+												<td>M</td>
+												<td>Men</td>
+												<td>26</td>
+												<td><buttom class="btn btn-primary">Lihat</buttom></td>
 											</tr>
 										</tbody>
 									</table>
 								</div>
 							</div>
 							<!-- END TABLE HOVER -->
+							<!-- Modal -->
+							<div id="myModal" class="modal fade" role="dialog">
+							  <div class="modal-dialog">
+
+							    <!-- Modal content-->
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal">&times;</button>
+							        <h4 class="modal-title">Gambar</h4>
+							      </div>
+							      <div class="modal-body">
+							        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: 300px; margin: 0 auto">
+									  <!-- Indicators -->
+									  <ol class="carousel-indicators">
+									    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+									    <li data-target="#myCarousel" data-slide-to="1"></li>
+									    <li data-target="#myCarousel" data-slide-to="2"></li>
+									  </ol>
+
+									  <!-- Wrapper for slides -->
+									  <div class="carousel-inner">
+									    <div class="item active">
+									      <img src="../images/mp1.jpg" alt="baju coklat">
+									    </div>
+
+									    <div class="item">
+									      <img src="../images/mp2.jpg" alt="baju jeans">
+									    </div>
+
+									    <div class="item">
+									      <img src="../images/mp3.jpg" alt="baju hitam">
+									    </div>
+									  </div>
+
+									  <!-- Left and right controls -->
+									  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+									    <span class="glyphicon glyphicon-chevron-left"></span>
+									    <span class="sr-only">Previous</span>
+									  </a>
+									  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+									    <span class="glyphicon glyphicon-chevron-right"></span>
+									    <span class="sr-only">Next</span>
+									  </a>
+									</div>
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							      </div>
+							    </div>
+
+							  </div>
+							</div>
 						</div>
 					</div>
 				</div>
