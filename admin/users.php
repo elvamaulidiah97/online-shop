@@ -79,21 +79,21 @@
 												<td>Steve</td>
 												<td>Surabaya</td>
 												<td>steve21</td>
-												<td><a href="" class=" btn btn-info">Detail</a></td>
+												<td><a href="profil-user.php" class="btn btn-info">Detail</a></td>
 											</tr>
 											<tr>
 												<td>2</td>
 												<td>Simon</td>
 												<td>Malang</td>
 												<td>Ssimon</td>
-												<td><a href="" class=" btn btn-info">Detail</a></td>
+												<td><a href="profil-user.php" class="btn btn-info">Detail</a></td>
 											</tr>
 											<tr>
 												<td>3</td>
 												<td>Jane</td>
 												<td>Jember</td>
 												<td>j4ne</td>
-												<td><a href="" class=" btn btn-info">Detail</a></td>
+												<td><a href="profil-user.php" class="btn btn-info">Detail</a></td>
 											</tr>
 										</tbody>
 									</table>
