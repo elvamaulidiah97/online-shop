@@ -70,7 +70,10 @@
 												<th>Username</th>
 												<th>Nama Barang</th>
 												<th>Jumlah</th>
-												<th>tanggal Pembelian</th>
+												<th>Tanggal Pembelian</th>
+												<th>Status</th>
+												<th>Confirm</th>
+												<th>Tanggal Membayar</th>
 											</tr>
 										</thead>
 										<tbody>
@@ -80,6 +83,9 @@
 												<td>Cardinal</td>
 												<td>2</td>
 												<td>21 Januari 2017 18:00</td>
+												<td>Sudah Membayar</td>
+												<td><button class="btn btn-danger">Batal</button></td>
+												<td>21 Januari 2017 19:00</td>
 											</tr>
 											<tr>
 												<td>2</td>
@@ -87,6 +93,9 @@
 												<td>Cardinal</td>
 												<td>1</td>
 												<td>1 Februari 2017 16:00</td>
+												<<td>Sudah Membayar</td>
+												<td><button class="btn btn-danger">Batal</button></td>
+												<td>1 Februari 2017 17:20</td>
 											</tr>
 											<tr>
 												<td>3</td>
@@ -94,12 +103,35 @@
 												<td>Levi's</td>
 												<td>1</td>
 												<td>1 Juni 2017 14:53</td>
+												<td>Belum Membayar</td>
+												<td><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Confirm</button></td>
+												<td>-</td>
 											</tr>
 										</tbody>
 									</table>
 								</div>
 							</div>
 							<!-- END TABLE HOVER -->
+							<!-- Modal -->
+							<div id="myModal" class="modal fade" role="dialog">
+							  <div class="modal-dialog">
+
+							    <!-- Modal content-->
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal">&times;</button>
+							        <h4 class="modal-title">Confirm</h4>
+							      </div>
+							      <div class="modal-body">
+							       <input type="date" value="" class="form-control" placeholder="tanggal pembayaran">
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-primary" data-dismiss="modal">Confirm</button>
+							      </div>
+							    </div>
+
+							  </div>
+							</div>
 						</div>
 					</div>
 				</div>
