@@ -71,27 +71,6 @@
 									Deskripsi:
 									<textarea class="form-control" placeholder="deskripsi" rows="4"></textarea>
 									<br>
-									Size:
-									<label class="fancy-radio">
-										<input name="gender" value="S" type="radio">
-										<span><i></i>S</span>
-									</label>
-									<label class="fancy-radio">
-										<input name="gender" value="M" type="radio">
-										<span><i></i>M</span>
-									</label>
-									<label class="fancy-radio">
-										<input name="gender" value="L" type="radio">
-										<span><i></i>L</span>
-									</label>
-									<label class="fancy-radio">
-										<input name="gender" value="XL" type="radio">
-										<span><i></i>XL</span>
-									</label>
-									<label class="fancy-radio">
-										<input name="gender" value="XXL" type="radio">
-										<span><i></i>XXL</span>
-									</label>
 									Tipe:
 									<select class="form-control">
 										<option value="Men">Men</option>

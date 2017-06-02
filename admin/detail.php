@@ -70,10 +70,10 @@
 												<th>Nama</th>
 												<th>Harga</th>
 												<th>Deskripsi</th>
-												<th>Size</th>
 												<th>Tipe</th>
 												<th>Stok</th>
 												<th>Gambar</th>
+												<th>aksi</th>
 											</tr>
 										</thead>
 										<tbody>
@@ -82,30 +82,30 @@
 												<td>Details</td>
 												<td>225000</td>
 												<td>Kemeja Putih</td>
-												<td>L</td>
 												<td>Party</td>
 												<td>21</td>
 												<td><buttom class="btn btn-primary" data-toggle="modal" data-target="#myModal">Lihat</buttom></td>
+												<td><buttom class="btn btn-danger">Delete</buttom></td>
 											</tr>
 											<tr>
 												<td>2</td>
 												<td>Park Avenue</td>
 												<td>200000</td>
 												<td>Kemeja Biru gelap</td>
-												<td>L</td>
 												<td>Men</td>
 												<td>25</td>
 												<td><buttom class="btn btn-primary">Lihat</buttom></td>
+												<td><buttom class="btn btn-danger">Delete</buttom></td>
 											</tr>
 											<tr>
 												<td>3</td>
 												<td>Details</td>
 												<td>150000</td>
 												<td>Kemeja Coklat</td>
-												<td>M</td>
 												<td>Men</td>
 												<td>26</td>
 												<td><buttom class="btn btn-primary">Lihat</buttom></td>
+												<td><buttom class="btn btn-danger">Delete</buttom></td>
 											</tr>
 										</tbody>
 									</table>
